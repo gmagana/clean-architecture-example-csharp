@@ -31,8 +31,10 @@ The idea is that abstract code should never directly reference or call code that
 
 As elegant as the principles and the above diagram are, it's difficult to imagine what the actual project structure will be from the diagram alone. It's almost impossible to envision all the details that will cone up when turning such an abstract design into actual code that compiles cleanly and still maintains all the benefits of the abstract idea.
 ### Clean Architecture implementation of this solution
-This is the diagram of the project in this repository:
+This is the diagram of the project in this repository (Get the [PNG](https://github.com/gmagana/clean-architecture-example-csharp/raw/master/architecture-diagram/Clean%20Architecture%20Example%20CSharp.png) or get the [Visio source file](https://github.com/gmagana/clean-architecture-example-csharp/raw/master/architecture-diagram/Clean%20Architecture%20Example%20CSharp.vsdx)):
+
 ![C# Clean Architecure bare bones implementation](https://github.com/gmagana/clean-architecture-example-csharp/raw/master/architecture-diagram/Clean%20Architecture%20Example%20CSharp.png)
+
 Ok, so some explanation is in order :-).
 
 I implement each group of code as class libraries. Each class library has code that:
