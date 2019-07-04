@@ -22,7 +22,9 @@ Certainly you would do well to understand the Clean Architecture principles by r
 
 ### Clean Architecture Principles
 The central point of the book is this diagram:
+
 ![The Clean Architecture Diagram](https://github.com/gmagana/clean-architecture-example-csharp/raw/master/architecture-diagram/TheCleanArchitecture.jpg)
+
 The outer ring contains code that deals with the "details", and each embedded ring goes up in abstraction, until you arrive at the Entities.
 
 The idea is that abstract code should never directly reference or call code that is less abstract (that deals with details). Any interaction of that type should be done through well-defined. platform-agnostic interfaces only. The platform-agnostic part is extremely important. For example, the Use Cases should not contain data elements that reflect the database structure. It might make sense, for example, to hold a sales record object in memory in a data structure that does not mirror the database table structure used to store that information. Concerns about normalization, data duplication and de-duplication for performance are not the Use Cases' problem.  One of the main goals of Clean Architecture is to keep those structures independent: On the one hand, you are liberated to change your database structure (and platform!) liberally, without affecting Use Cases. On the other hand, you are creating data structures that are potentially largely duplicates of one another.
