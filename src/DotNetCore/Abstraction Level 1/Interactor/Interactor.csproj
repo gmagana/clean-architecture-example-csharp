@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="4.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Abstraction Level 0\Entities\Entities.csproj" />
+    <ProjectReference Include="..\..\Abstraction Level 1.5\ClientBoundary\ClientBoundary.csproj" />
+    <ProjectReference Include="..\InteractorDataModels\InteractorDataModels.csproj" />
+  </ItemGroup>
+
+</Project>
