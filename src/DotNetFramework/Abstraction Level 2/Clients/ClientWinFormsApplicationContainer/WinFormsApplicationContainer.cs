@@ -16,7 +16,7 @@ namespace ClientWinFormsApplicationContainer {
                 .Use<Interactor.Interactor>();
             this.For<IDataStore>().Use<DataStore.DataStore>();
 
-            // Add all Suspicious Item Detector instances here
+            // Add all Plugin instances here
             this.For<IPlugin>()
                 .Use<Plugin>();
         }
