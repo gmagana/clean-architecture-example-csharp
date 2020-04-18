@@ -32,14 +32,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BaselineTypeDiscovery, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\BaselineTypeDiscovery.1.0.1\lib\net461\BaselineTypeDiscovery.dll</HintPath>
+    <Reference Include="BaselineTypeDiscovery, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\BaselineTypeDiscovery.1.1.0\lib\net461\BaselineTypeDiscovery.dll</HintPath>
     </Reference>
     <Reference Include="Lamar, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\Lamar.4.0.0\lib\net461\Lamar.dll</HintPath>
+      <HintPath>..\..\..\packages\Lamar.4.2.1\lib\net461\Lamar.dll</HintPath>
     </Reference>
     <Reference Include="LamarCodeGeneration, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\..\packages\LamarCodeGeneration.1.2.0\lib\net461\LamarCodeGeneration.dll</HintPath>
+      <HintPath>..\..\..\packages\LamarCodeGeneration.1.4.0\lib\net461\LamarCodeGeneration.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
