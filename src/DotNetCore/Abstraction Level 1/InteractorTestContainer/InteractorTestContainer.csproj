@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lamar" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Abstraction Level 1.5\ClientBoundary\ClientBoundary.csproj" />
+    <ProjectReference Include="..\..\Abstraction Level 2\Data Stores\DataStore\DataStore.csproj" />
+    <ProjectReference Include="..\InteractorPlugin\InteractorPlugin.csproj" />
+    <ProjectReference Include="..\Interactor\Interactor.csproj" />
+  </ItemGroup>
+
+</Project>
