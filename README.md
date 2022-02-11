@@ -15,7 +15,9 @@ The goal of this project is to give you the smallest, simplest possible, still-v
 You can use this project to see a fully implemented scaffold of a Clean Architecture in C# as you study the principles. You can also use this as a blank slate from which to build your systems.
 ### Compiling and running the code
 
-There are two versions of this code, one for .NET Core 3.0 and another for .NET Framework 4.8. They are both under the **src/** directory. 
+There are two versions of this code, one for .NET 6.0 (Formerly .NET Core) and another for .NET Framework 4.8. They are both under the **src/** directory.
+
+I've stopped adding features to the .NET Framework version of the system simply because .NET is now "the" framework to use for new development.  I will continue to update the referenced libraries, but no new features will be added.  
 
 The code compiles and runs as-is, and runs with a bare-bones of interaction between components in "the Clean Architecture way" so you can see it in action and start experimenting right away.
 
